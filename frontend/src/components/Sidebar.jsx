@@ -9,6 +9,7 @@ const Sidebar = () => {
     useChatStore();
 
   const { onlineUsers } = useAuthStore();
+
   const [showOnlineOnly, setShowOnlineOnly] = useState(false);
 
   useEffect(() => {
